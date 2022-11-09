@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.808);
+}
+.bovenste{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.vragenstyle{
+    position: relative;
+    width: 500px;
+    left: 520px;
+    top: 50px;
+    background-color: rgb(61, 209, 3);
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.jabttn{
+    position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 36px;
+  line-height: 35px;
+  padding: 0 20px;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+  background-clip: padding-box;
+  border: 1px solid;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.neebttn{
+    position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 36px;
+  line-height: 35px;
+  padding: 0 20px;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+  background-clip: padding-box;
+  border: 1px solid;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.rbttn{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 56px;
+    line-height: 35px;
+    padding: 0 129px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+    background-clip: padding-box;
+    border: 1px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgba(36, 4, 4, 0.795);
+    left: 1200px;
+    top: 80px;
+}
+.rbttn2{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 56px;
+    line-height: 35px;
+    padding: 0 80px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+    background-clip: padding-box;
+    border: 1px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgba(36, 4, 4, 0.795);
+    left: 941px;
+    bottom: 825px;
+}
+
+#notver{
+    position: relative;
+    bottom: 850px;
+    left: 400px;
+    display: none;
+   
+}
+#gematigd{
+    position: relative;
+    bottom: 900px;
+    left: 400px;
+    display: none;
+}
+#Verslaafd{
+    position: relative;
+    bottom: 900px;
+    left: 380px;
+    display: none;
+}
+
+#res0{
+    
+    position: relative;
+    left: 1300px;
+    width: 190px;
+    bottom: 700px;
+    display: none;
+    color: white;
+}
+#res1{
+  
+    position: relative;
+    left: 1350px;
+    width: 150px;
+    bottom: 800px;
+    display: none;
+    color: white;
+}
+#res2{
+    
+    position: relative;
+    left: 1240px;
+    bottom: 820px;
+    width: 270px;
+    display: none;
+    color: white;
+}
+#res3{
+ 
+    position: relative;
+    left: 1350px;
+    bottom: 835px;
+    width: 150px;
+    display: none;
+    color: white;
+}
+#resultaat{
+    position: relative;
+    top: 150px;
+    right: 10px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    margin: auto;
+    background-color: rgba(29, 28, 28, 0.884);
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#resultaat2{
+    position: relative;
+    top: 180px;
+    right: 10px;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    background-color: rgba(29, 28, 28, 0.884);
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}

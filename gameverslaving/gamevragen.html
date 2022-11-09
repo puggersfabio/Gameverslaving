@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gamestyel.css">
+    <script src="store.js" defer></script>
+    <title>Vragen lijst</title>
+</head>
+<body>
+    <h1 class="bovenste">Game verslaving test</h1>
+
+    <!-- alle vragen -->
+    <form name="quiz" id="quiz">
+        <!--vragen-->
+        <div class="vragenstyle">
+            <p>Vraag 1: Gamet u elke dag?</p>
+            <p><input type="radio" name="q1" value="Ja1" onclick="ja()">Ja</p>
+            <p><input type="radio" name="q1" value="Nee1">Nee</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 2: Hoeveel uur speelt u ongeveer per dag?</p>
+            <p><input type="radio" name="q2" value="Ja2">Meer dan 4 uur per dag</p>
+            <p><input type="radio" name="q2" value="Nee2">Minder dan 4 uur per dag</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 3: Zegt u sociale activiteiten af voor games?</p>
+            <p><input type="radio" name="q3" value="Ja3">Ja</p>
+            <p><input type="radio" name="q3" value="Nee3">Nee</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 4: Zegt u vaak belangrijke zaken af door uw games?</p>
+            <p><input type="radio" name="q4" value="Ja4">Ja</p>
+            <p><input type="radio" name="q4" value="Nee4">Nee</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 5: Steekt u veel geld in uw games?</p>
+            <p><input type="radio" name="q5" value="Ja5">Ja</p>
+            <p><input type="radio" name="q5" value="Nee5">Nee</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 6: Is uw aandacht naar school of werk minder door games?</p>
+            <p><input type="radio" name="q6" value="Ja6">Ja</p>
+            <p><input type="radio" name="q6" value="Nee6">Nee</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 7: Krijgt u soms commentaar door uw game gebruik?</p>
+            <p><input type="radio" name="q7" value="Ja7">Ja</p>
+            <p><input type="radio" name="q7" value="Nee7">Nee</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 8: Bent u wel eens vergeten om te eten en drinken door games</p>
+            <p><input type="radio" name="q8" value="Ja8">Ja</p>
+            <p><input type="radio" name="q8" value="Nee8">Nee</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 9: Heeft u elke dag een drang om te gamen?</p>
+            <p><input type="radio" name="q9" value="Ja9">Ja</p>
+            <p><input type="radio" name="q9" value="Nee9">Nee</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 10: Krijgt u wel eens last van uw hoofd maar blijft u toch door gamen?</p>
+            <p><input type="radio" name="q10" value="Ja10">Ja</p>
+            <p><input type="radio" name="q10" value="Nee10">Nee</p>
+        </div>
+    
+        <div class="vragenstyle">
+            <p>Vraag 11: Denkt u dat u op elk moment kunt stoppen met gamen?</p>
+            <p><input type="radio" name="q11" value="Ja11">Ja</p>
+            <p><input type="radio" name="q11" value="Nee11">Nee</p>
+        </div>
+    
+    
+        <!-- resiltaat bttn -->
+    <input type="button" class="rbttn" value="Resultaat!" onclick="resultaat()">
+
+    <input type="button" class="rbttn2" id="vorigeres1" value="vorige resultaat!" onclick="vorigeres()">
+    </form>
+
+    <p id="resultaat"></p>
+    <p id="resultaat2"></p>
+
+    <img id="notver" src="foto,s/niet verslaafd.PNG">
+
+    <img id="gematigd" src="foto,s/Knipsel.PNG">
+    
+    <img id="Verslaafd" src="foto,s/verslaafd.PNG">
+
+    <div id="res1">U bent niet verslaafd</div>
+    <div id="res2">U moet oppassen met hoeveel u drinkt!</div>
+    <div id="res3">u bent verslaafd</div>
+    <div id="res0">U hebt nog geen test gedaan!</div>
+
+    
+</body>
+</html>
